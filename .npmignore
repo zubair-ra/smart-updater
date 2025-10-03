@@ -1,0 +1,31 @@
+# Source files
+src/
+tsconfig.json
+
+# Development
+node_modules/
+.smart-updater/
+*.log
+
+# IDE
+.vscode/
+.idea/
+
+# Testing
+coverage/
+.nyc_output/
+
+# Git
+.git/
+.gitignore
+
+# CI/CD
+.github/
+
+# Documentation (keep README.md)
+docs/
+
+# Development files
+nodemon.json
+.eslintrc*
+.prettierrc*

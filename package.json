@@ -1,0 +1,62 @@
+{
+  "name": "smart-updater",
+  "version": "1.0.0",
+  "description": "Intelligent npm package updater with safety checks, impact analysis, and rollback capabilities",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "bin": {
+    "smart-updater": "./dist/cli/index.js"
+  },
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "dev": "nodemon --exec ts-node src/cli/index.ts",
+    "prepublishOnly": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "npm",
+    "update",
+    "dependencies",
+    "package-manager",
+    "cli",
+    "smart-updater",
+    "rollback",
+    "testing"
+  ],
+  "author": "",
+  "license": "ISC",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "chalk": "^5.6.2",
+    "commander": "^14.0.1",
+    "execa": "^9.6.0",
+    "inquirer": "^12.9.6",
+    "listr2": "^9.0.4",
+    "npm-check-updates": "^19.0.0",
+    "ora": "^9.0.0",
+    "pacote": "^21.0.3",
+    "semver": "^7.7.2"
+  },
+  "devDependencies": {
+    "@types/node": "^24.6.2",
+    "@types/pacote": "^11.1.8",
+    "@types/semver": "^7.7.1",
+    "eslint": "^9.36.0",
+    "nodemon": "^3.1.10",
+    "prettier": "^3.6.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
