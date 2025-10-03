@@ -1,6 +1,6 @@
 {
   "name": "safe-npm-updater",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Intelligent npm package updater with safety checks, impact analysis, and rollback capabilities",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
