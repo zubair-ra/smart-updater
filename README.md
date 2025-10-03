@@ -31,7 +31,7 @@ npx safe-npm-updater
 Check for outdated packages and security issues:
 
 ```bash
-smart-updater analyze
+safe-npm-updater analyze
 ```
 
 Options:
@@ -43,7 +43,7 @@ Options:
 Update packages with interactive selection:
 
 ```bash
-smart-updater update
+safe-npm-updater update
 ```
 
 Options:
@@ -57,16 +57,16 @@ Examples:
 
 ```bash
 # Interactive mode
-smart-updater update
+safe-npm-updater update
 
 # Only security updates
-smart-updater update --security
+safe-npm-updater update --security
 
 # Only safe patch updates
-smart-updater update --safe
+safe-npm-updater update --safe
 
 # Update all packages
-smart-updater update --all
+safe-npm-updater update --all
 ```
 
 ### Test Package Updates
@@ -74,7 +74,7 @@ smart-updater update --all
 Test the impact of updating a specific package before applying:
 
 ```bash
-smart-updater test axios@1.6.0
+safe-npm-updater test axios@1.6.0
 ```
 
 This will:
@@ -89,7 +89,7 @@ This will:
 Restore packages to a previous snapshot:
 
 ```bash
-smart-updater rollback
+safe-npm-updater rollback
 ```
 
 Interactively select from available snapshots to restore.
@@ -99,7 +99,7 @@ Interactively select from available snapshots to restore.
 Get detailed information about a package:
 
 ```bash
-smart-updater why lodash
+safe-npm-updater why lodash
 ```
 
 Shows:
@@ -112,7 +112,7 @@ Shows:
 
 ### Risk Categorization
 
-Smart-updater categorizes updates by risk level:
+safe-npm-updater categorizes updates by risk level:
 
 - 🚨 **CRITICAL** - Security vulnerabilities
 - ⚠️ **BREAKING** - Major version updates
@@ -121,7 +121,7 @@ Smart-updater categorizes updates by risk level:
 
 ### Snapshot System
 
-Before every update, smart-updater automatically creates a snapshot of:
+Before every update, safe-npm-updater automatically creates a snapshot of:
 - `package.json`
 - `package-lock.json`
 
@@ -139,7 +139,7 @@ The test command creates an isolated environment to verify updates:
 
 ## Configuration
 
-Smart-updater works with your existing project configuration:
+safe-npm-updater works with your existing project configuration:
 
 - Reads test command from `package.json` scripts
 - Detects TypeScript projects automatically
@@ -155,7 +155,7 @@ Smart-updater works with your existing project configuration:
 ## Project Structure
 
 ```
-smart-updater/
+safe-npm-updater/
 ├── src/
 │   ├── cli/           # CLI entry point
 │   ├── commands/      # Command implementations
@@ -188,7 +188,7 @@ npm link
 
 ## Security
 
-Smart-updater follows security best practices:
+safe-npm-updater follows security best practices:
 
 - Input validation for all user inputs
 - Sanitized package names before registry calls
