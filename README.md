@@ -202,8 +202,16 @@ ISC
 
 ## Contributing
 
-Contributions are welcome! Please feel free to submit issues and pull requests.
+Contributions are welcome! Please feel free to submit issues and pull requests to the GitHub repository:
+
+**Repository:** https://github.com/zubair-ra/smart-updater
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
 
 ## Author
 
-Created with ❤️ for safer npm package updates
+Created with ❤️ for safer npm package updates by [@mzubair746r](https://www.npmjs.com/~mzubair746r)
