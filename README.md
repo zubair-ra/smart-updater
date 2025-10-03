@@ -1,4 +1,4 @@
-# smart-updater
+# safe-npm-updater
 
 Intelligent npm package updater with safety checks, impact analysis, and rollback capabilities.
 
@@ -15,13 +15,13 @@ Intelligent npm package updater with safety checks, impact analysis, and rollbac
 ## Installation
 
 ```bash
-npm install -g @mzubair746r/smart-updater
+npm install -g safe-npm-updater
 ```
 
 Or use with npx:
 
 ```bash
-npx @mzubair746r/smart-updater
+npx safe-npm-updater
 ```
 
 ## Usage

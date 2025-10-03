@@ -1,5 +1,5 @@
 {
-  "name": "@mzubair746r/smart-updater",
+  "name": "safe-npm-updater",
   "version": "1.0.0",
   "description": "Intelligent npm package updater with safety checks, impact analysis, and rollback capabilities",
   "main": "./dist/index.js",
