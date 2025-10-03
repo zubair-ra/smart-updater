@@ -15,13 +15,13 @@ Intelligent npm package updater with safety checks, impact analysis, and rollbac
 ## Installation
 
 ```bash
-npm install -g smart-updater
+npm install -g @mzubair746r/smart-updater
 ```
 
 Or use with npx:
 
 ```bash
-npx smart-updater
+npx @mzubair746r/smart-updater
 ```
 
 ## Usage
