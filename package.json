@@ -35,8 +35,16 @@
     "rollback",
     "testing"
   ],
-  "author": "",
+  "author": "zubair-ra",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zubair-ra/smart-updater.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zubair-ra/smart-updater/issues"
+  },
+  "homepage": "https://github.com/zubair-ra/smart-updater#readme",
   "engines": {
     "node": ">=18.0.0"
   },
