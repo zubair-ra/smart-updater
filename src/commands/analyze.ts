@@ -65,9 +65,9 @@ export async function analyzeCommand(options: AnalyzeOptions): Promise<void> {
     }
 
     console.log();
-    logger.info('Run `smart-updater update` to update packages interactively');
-    logger.info('Run `smart-updater update --safe` to update only patch versions');
-    logger.info('Run `smart-updater update --security` to update only security fixes');
+    logger.info('Run `safe-npm-updater update` to update packages interactively');
+    logger.info('Run `safe-npm-updater update --safe` to update only patch versions');
+    logger.info('Run `safe-npm-updater update --security` to update only security fixes');
 
   } catch (error: any) {
     logger.failSpinner('Analysis failed');
